@@ -1,0 +1,18 @@
+//if(n1 === null || n2 === null || n3 === null){
+    //alert("Favor digitar um valor")
+    //return calcularMedia()
+//}else{
+    //resultado =  (n1+n2+n3)/3).toFixed(1)
+   // alert(resultado)
+
+//}
+
+function calcularMedia(n1, n2, n3){
+    var n1 = parseFloat(prompt("Digite o valor da primeira nota: "))
+    var n2 = parseFloat(prompt("Digite o valor da primeira nota: "))
+    var n3 = parseFloat(prompt("Digite o valor da primeira nota: "))
+    var resultado = ((n1+n2+n3)/3).toFixed(1)
+    alert(resultado)
+}
+
+calcularMedia()
